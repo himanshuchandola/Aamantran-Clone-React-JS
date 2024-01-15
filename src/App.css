@@ -1,5 +1,11 @@
+body,
+html {
+  overflow-y: hidden;
+}
+
 .App {
   text-align: center;
+  overflow-y: hidden;
 }
 
 .App-logo {
@@ -35,4 +41,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.no-vertical-scroll {
+  overflow-y: hidden;
+}
+.custom-margin-right {
+  margin-right: 15px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.sidebar-content {
+  flex-grow: 1;
+}
+
+.footer {
+  margin-top: auto;
 }

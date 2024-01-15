@@ -1,9 +1,10 @@
 import "./App.css";
+import HomePage from "./Pages/HomePage";
 
 function App() {
   return (
     <>
-      <h1> Aamantran React Clone</h1>
+      <HomePage />
     </>
   );
 }
