@@ -40,6 +40,9 @@ const HomePage = () => {
             </div>
             <br />
             <p style={{ color: "orange" }}>{t("exclusive_access")}</p>
+            <p style={{ color: "blue", textAlign: "center", fontSize: 26 }}>
+              &
+            </p>
             <p style={{ color: "green" }}>{t("experience_seamless")}</p>
             <br />
             <button className="btn btn-success" onClick={handleBookTickets}>
