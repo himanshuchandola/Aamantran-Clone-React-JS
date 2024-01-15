@@ -35,7 +35,7 @@ const HomePage = () => {
                 src="/Assets/header-logo.png"
                 alt="Parade"
                 className="img-fluid"
-                width={200}
+                width={400}
               />
             </div>
             <br />
@@ -58,7 +58,7 @@ const HomePage = () => {
               </div>
             </footer>
           </div>
-          <div className="col-md-9">
+          <div className="col-md-9 sidebar">
             <img
               src="/Assets/sidebar_photo.png"
               alt="Parade"
